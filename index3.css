@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 20px;
+}
+header {
+    background-color: #1b5e20; /* Vert foncé */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #4caf50; 
+}
+.langue-container {
+    margin: 15px 0;
+    text-align: right;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+h2 {
+    color: #1b5e20;
+    border-bottom: 2px solid #1b5e20;
+    padding-bottom: 5px;
+}
+.image-projet {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px dashed #999;
+}
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button {
+    background-color: #1b5e20;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover {
+    background-color: #2e7d32;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: #666;
+    font-size: 14px;
+}
