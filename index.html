@@ -1,0 +1,76 @@
+<DOCTYPE  html><div class="png"></div>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet Palestine - 3ème Informatique</title>
+    <div style="display: flex; align-items: center; gap: 10px;">
+  <img src="logo-insigne-palestine-logo-du-cercle-moderne_636138-1554 (1) (1).png" alt="Logo" style="width: 40px; height: 40px; object-fit: contain;">
+  <span style="color: white; font-size: 24px; font-weight: bold;">Project</span>
+</div>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Histoire et Patrimoine de la Palestine</h1>
+        <p>Projet Site Web Interactif - Lycée Farhat Hached Rades</p>
+    </header>
+    <nav>
+        <a href="#histoire">Histoire</a>
+        <a href="#geographie">Géographie</a>
+        <a href="#multimedia">Multimédia</a>
+        <a href="#formulaire">Contact & Proposition</a>
+    </nav>
+    <div class="langue-container">
+        <label for="langue">    Choisir la langue : </label>
+        <select id="langue">
+            <option value="fr">Français (FR)</option>
+            <option value="ar">العربية (AR)</option>
+            <option value="en">English (ANG)</option>
+        </select>
+    </div>
+    <main> 
+        <section id="histoire">
+            <h2>1. Aperçu Historique</h2>
+            <h3>Période antique</h3>
+            <p>La Palestine a une histoire millénaire marquée par la succession de nombreuses civilisations.</p>
+            <h3>La période arabe (638 à 1096)</h3>
+            <p>L'arrivée des Arabes et le développement architectural et culturel à Jérusalem.</p>
+            <h3>Le temps des croisades (1096 à 1244)</h3>
+            <p>Période de conflits entre les croisés et les forces musulmanes pour le contrôle de la région.</p>
+
+            <h3>Période ottomane et Domination britannique (1917-1947)</h3>
+            <p>La fin de l'Empire ottoman puis le mandat britannique ayant mené au plan de partage de 1947.</p>
+        </section>
+        <section id="geographie">
+            <h2>2. Géographie et Villes Principales</h2>
+            <p>Les principales villes historiques sont Jérusalem, Gaza, Naplouse et Hébron.</p>
+            <img src="36338199-main-geste-palestine-illustration-vectoriel.jpg" alt="Image de la Palestine" width="30%" class="image-projet">
+        </section>
+        <section id="multimedia">
+            <h2>3. Fichiers Multimédias</h2>
+            <h3>Vidéo Documentaire :</h3>
+            <video controls width="400">
+                <source src="projet palestine.mp4"  type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéo.
+            </video>
+            <h3>Fichier Son / Audio :</h3> 
+        </section>
+        <section id="formulaire">
+            <h2>4. Formulaire pour une paix dans la justice</h2>
+            <form action="#" method="post">
+                <label for="nom">Nom et Prénom :</label><br>
+                <input type="text" id="nom" name="nom" placeholder="Saisir votre nom" required><br><br>
+                <label for="email">Adresse Email :</label><br>
+                <input type="email" id="email" name="email" placeholder="exemple@mail.com" required><br><br>
+                <label for="message">Votre Proposition :</label><br>
+                <textarea id="message" name="message" rows="4" cols="40" placeholder="Proposer une solution pour la paix..."></textarea><br><br>
+                <button type="submit">Envoyer</button>
+                <button type="reset">Effacer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Réalisé par l'élève safwen  - Section Informatique 3ème | 2026</p>
+    </footer>
+</body>
+</html>
